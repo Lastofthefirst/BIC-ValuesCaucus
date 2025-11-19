@@ -11,10 +11,7 @@ import {
   LinkedInIcon,
   XIcon,
 } from '@/components/SocialIcons'
-import logoAirbnb from '@/images/logos/airbnb.svg'
-import logoFacebook from '@/images/logos/facebook.svg'
-import logoPlanetaria from '@/images/logos/planetaria.svg'
-import logoStarbucks from '@/images/logos/starbucks.svg'
+// Logo imports removed - not needed for Values Caucus
 import image1 from '@/images/photos/image-1.jpg'
 import image2 from '@/images/photos/image-2.jpg'
 import image3 from '@/images/photos/image-3.jpg'
@@ -46,7 +43,7 @@ function MailIcon(props) {
   )
 }
 
-function BriefcaseIcon(props) {
+function CalendarIcon(props) {
   return (
     <svg
       viewBox="0 0 24 24"
@@ -58,11 +55,11 @@ function BriefcaseIcon(props) {
       {...props}
     >
       <path
-        d="M2.75 9.75a3 3 0 0 1 3-3h12.5a3 3 0 0 1 3 3v8.5a3 3 0 0 1-3 3H5.75a3 3 0 0 1-3-3v-8.5Z"
+        d="M2.75 7.75a3 3 0 0 1 3-3h12.5a3 3 0 0 1 3 3v10.5a3 3 0 0 1-3 3H5.75a3 3 0 0 1-3-3v-10.5Z"
         className="fill-zinc-100 stroke-zinc-400 dark:fill-zinc-100/10 dark:stroke-zinc-500"
       />
       <path
-        d="M3 14.25h6.249c.484 0 .952-.002 1.316.319l.777.682a.996.996 0 0 0 1.316 0l.777-.682c.364-.32.832-.319 1.316-.319H21M8.75 6.5V4.75a2 2 0 0 1 2-2h2.5a2 2 0 0 1 2 2V6.5"
+        d="M7.25 2.5v4M16.75 2.5v4M2.75 9h18.5"
         className="stroke-zinc-400 dark:stroke-zinc-500"
       />
     </svg>
@@ -113,10 +110,10 @@ function Newsletter() {
     >
       <h2 className="flex text-sm font-semibold text-zinc-900 dark:text-zinc-100">
         <MailIcon className="h-6 w-6 flex-none" />
-        <span className="ml-3">Stay up to date</span>
+        <span className="ml-3">Stay informed</span>
       </h2>
       <p className="mt-2 text-sm text-zinc-600 dark:text-zinc-400">
-        Get notified when I publish something new, and unsubscribe at any time.
+        Receive updates about Values Caucus events, reports, and initiatives at the United Nations.
       </p>
       <div className="mt-6 flex items-center">
         <span className="flex min-w-0 flex-auto p-px">
@@ -136,92 +133,70 @@ function Newsletter() {
   )
 }
 
-function Role({ role }) {
-  let startLabel =
-    typeof role.start === 'string' ? role.start : role.start.label
-  let startDate =
-    typeof role.start === 'string' ? role.start : role.start.dateTime
-
-  let endLabel = typeof role.end === 'string' ? role.end : role.end.label
-  let endDate = typeof role.end === 'string' ? role.end : role.end.dateTime
-
+function Milestone({ milestone }) {
   return (
     <li className="flex gap-4">
-      <div className="relative mt-1 flex h-10 w-10 flex-none items-center justify-center rounded-full shadow-md ring-1 shadow-zinc-800/5 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0">
-        <Image src={role.logo} alt="" className="h-7 w-7" unoptimized />
+      <div className="relative mt-1 flex h-10 w-10 flex-none items-center justify-center rounded-full bg-white shadow-md ring-1 shadow-zinc-800/5 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0">
+        <span className="text-xs font-semibold text-zinc-600 dark:text-zinc-400">
+          {milestone.year}
+        </span>
       </div>
       <dl className="flex flex-auto flex-wrap gap-x-2">
-        <dt className="sr-only">Company</dt>
+        <dt className="sr-only">Event</dt>
         <dd className="w-full flex-none text-sm font-medium text-zinc-900 dark:text-zinc-100">
-          {role.company}
+          {milestone.event}
         </dd>
-        <dt className="sr-only">Role</dt>
+        <dt className="sr-only">Description</dt>
         <dd className="text-xs text-zinc-500 dark:text-zinc-400">
-          {role.title}
-        </dd>
-        <dt className="sr-only">Date</dt>
-        <dd
-          className="ml-auto text-xs text-zinc-400 dark:text-zinc-500"
-          aria-label={`${startLabel} until ${endLabel}`}
-        >
-          <time dateTime={startDate}>{startLabel}</time>{' '}
-          <span aria-hidden="true">—</span>{' '}
-          <time dateTime={endDate}>{endLabel}</time>
+          {milestone.description}
         </dd>
       </dl>
     </li>
   )
 }
 
-function Resume() {
-  let resume = [
+function KeyMilestones() {
+  let milestones = [
     {
-      company: 'Planetaria',
-      title: 'CEO',
-      logo: logoPlanetaria,
-      start: '2019',
-      end: {
-        label: 'Present',
-        dateTime: new Date().getFullYear().toString(),
-      },
+      year: '1994',
+      event: 'Founded',
+      description: 'Values Caucus established for the World Summit on Social Development',
     },
     {
-      company: 'Airbnb',
-      title: 'Product Designer',
-      logo: logoAirbnb,
-      start: '2014',
-      end: '2019',
+      year: '1995',
+      event: 'Copenhagen Summit',
+      description: 'Successfully lobbied for inclusion of values in UN documents',
     },
     {
-      company: 'Facebook',
-      title: 'iOS Software Engineer',
-      logo: logoFacebook,
-      start: '2011',
-      end: '2014',
+      year: '1996',
+      event: 'Coffee Series Begins',
+      description: 'Initiated informal dialogues with UN Ambassadors',
     },
     {
-      company: 'Starbucks',
-      title: 'Shift Supervisor',
-      logo: logoStarbucks,
-      start: '2008',
-      end: '2011',
+      year: '2000',
+      event: 'Millennium Summit',
+      description: 'World leaders adopt values-based Millennium Development Goals',
+    },
+    {
+      year: '2005',
+      event: '60th UN Anniversary',
+      description: 'Hosted major event: "The Spirit of the United Nations"',
     },
   ]
 
   return (
     <div className="rounded-2xl border border-zinc-100 p-6 dark:border-zinc-700/40">
       <h2 className="flex text-sm font-semibold text-zinc-900 dark:text-zinc-100">
-        <BriefcaseIcon className="h-6 w-6 flex-none" />
-        <span className="ml-3">Work</span>
+        <CalendarIcon className="h-6 w-6 flex-none" />
+        <span className="ml-3">Key Milestones</span>
       </h2>
       <ol className="mt-6 space-y-4">
-        {resume.map((role, roleIndex) => (
-          <Role key={roleIndex} role={role} />
+        {milestones.map((milestone, milestoneIndex) => (
+          <Milestone key={milestoneIndex} milestone={milestone} />
         ))}
       </ol>
-      <Button href="#" variant="secondary" className="group mt-6 w-full">
-        Download CV
-        <ArrowDownIcon className="h-4 w-4 stroke-zinc-400 transition group-active:stroke-zinc-600 dark:group-hover:stroke-zinc-50 dark:group-active:stroke-zinc-50" />
+      <Button href="/about" variant="secondary" className="group mt-6 w-full">
+        Learn about our history
       </Button>
     </div>
   )
@@ -264,32 +239,14 @@ export default async function Home() {
       <Container className="mt-9">
         <div className="max-w-2xl">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
-            Software designer, founder, and amateur astronaut.
+            The Values Caucus at the United Nations
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            I’m Spencer, a software designer and entrepreneur based in New York
-            City. I’m the founder and CEO of Planetaria, where we develop
-            technologies that empower regular people to explore space on their
-            own terms.
+            The Mission of the Values Caucus at the United Nations in New York is to provide an open forum, in the context of the UN, where we can safely and respectfully discuss and explore our values, old and new, shared and differing, in order to allow a new culture to emerge that serves all of humanity and the planet upon which we live.
           </p>
-          <div className="mt-6 flex gap-6">
-            <SocialLink href="#" aria-label="Follow on X" icon={XIcon} />
-            <SocialLink
-              href="#"
-              aria-label="Follow on Instagram"
-              icon={InstagramIcon}
-            />
-            <SocialLink
-              href="#"
-              aria-label="Follow on GitHub"
-              icon={GitHubIcon}
-            />
-            <SocialLink
-              href="#"
-              aria-label="Follow on LinkedIn"
-              icon={LinkedInIcon}
-            />
-          </div>
+          <p className="mt-4 text-base text-zinc-600 dark:text-zinc-400">
+            The Values Caucus was founded in 1994 in anticipation of the World Summit for Social Development held in Copenhagen in 1995. We welcome participation of non-governmental organizations, governments, United Nations personnel, United Nations missions, professionals, organizations, and individuals. As humanity evolves, new values systems emerge in response to changing life conditions. Which values will serve us best as we face the challenges before us in the 21st Century? Above all, we need to understand and respect each other's values and learn to live in peace together.
+          </p>
         </div>
       </Container>
       <Photos />
@@ -302,7 +259,7 @@ export default async function Home() {
           </div>
           <div className="space-y-10 lg:pl-16 xl:pl-24">
             <Newsletter />
-            <Resume />
+            <KeyMilestones />
           </div>
         </div>
       </Container>
