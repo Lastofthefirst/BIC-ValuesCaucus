@@ -1,0 +1,134 @@
+VALUESCAUCUS.ORG SITE MAP (September 22, 2021 Snapshot)
+======================================================================
+Total Pages: 36
+
+CONTENT CATEGORIES:
+--------------------
+Main Navigation Pages: 5 pages
+  • index.html - 0 chars
+  • become-a-member/index.html - 114 chars
+  • history/index.html - 14,551 chars
+  • contact-us/index.html - 270 chars
+  • about-us/index.html - 743 chars
+
+Historical Documents: 16 pages
+  • coffees/coffee-books/index.html - 24 chars
+  • coffees/coffee-books/1999-2/index.html - 1,806 chars
+  • coffees/coffee-books/1998-2/index.html - 1,649 chars
+  • coffees/coffee-books/1997-2/index.html - 1,830 chars
+  • coffees/coffee-books/2001-2/index.html - 683 chars
+  • coffees/coffee-books/2000-2/index.html - 1,225 chars
+  • reports/activity-reports/index.html - 263 chars
+  • reports/activity-reports/activity-report-september-2004-to-september-2005/index.html - 10,529 chars
+  • reports/activity-reports/activity-report-september-2003-to-september-2004/index.html - 5,137 chars
+  • reports/activity-reports/activity-report-september-2003-to-september-2004/the-ethical-and-spiritual-dimensions-of-the-millennium-development-goals/index.html - 4,706 chars
+  • reports/activity-reports/september-2000-to-september-2001/index.html - 2,719 chars
+  • reports/activity-reports/september-1999-to-september-2000/index.html - 2,002 chars
+  • reports/activity-reports/september-1998-to-september-1999/index.html - 1,470 chars
+  • reports/activity-reports/september-2002-to-september-2003/index.html - 4,465 chars
+  • reports/activity-reports/september-2001-to-september-2002/index.html - 4,434 chars
+  • reports/activity-reports/september-1997-to-september-1998/index.html - 1,716 chars
+
+Report Pages: 6 pages
+  • reports/index.html - 724 chars
+  • reports/special-events/index.html - 804 chars
+  • reports/special-events/csw61-values-caucus-community-discussion-the-value-of-work/index.html - 3,354 chars
+  • reports/special-events/the-ethical-and-spiritual-dimensions-of-the-millennium-development-goals/index.html - 4,706 chars
+  • reports/special-events/connecting-character-to-conduct-helping-students-do-the-right-thing/index.html - 5,248 chars
+  • reports/special-events/visions-values-and-actions-create-our-common-future/index.html - 4,959 chars
+
+Event Listings: 1 pages
+  • events/index.html - 40,766 chars
+
+Resources: 2 pages
+  • resources/index.html - 796 chars
+  • resources/do-we-still-have-universal-values/index.html - 15,602 chars
+
+Other Pages: 6 pages
+  • the-summits-millennium-declaration-ares552/index.html - 21,232 chars
+  • legal/index.html - 67 chars
+  • coffees/index.html - 817 chars
+  • coffees/guests-to-date/index.html - 4,809 chars
+  • coffees/upcoming-coffees/index.html - 382 chars
+  • about-us/members/index.html - 4,124 chars
+
+LARGEST PAGES:
+---------------
+1. events/index.html: 40,766 characters
+2. the-summits-millennium-declaration-ares552/index.html: 21,232 characters
+3. resources/do-we-still-have-universal-values/index.html: 15,602 characters
+4. history/index.html: 14,551 characters
+5. reports/activity-reports/activity-report-september-2004-to-september-2005/index.html: 10,529 characters
+
+DIRECTORY STRUCTURE:
+--------------------
+site/
+    the-summits-millennium-declaration-ares552/
+    become-a-member/
+    resources/
+        do-we-still-have-universal-values/
+    legal/
+    history/
+    events/
+    coffees/
+        coffee-books/
+            1999-2/
+            1998-2/
+            1997-2/
+            2001-2/
+            2000-2/
+        guests-to-date/
+        upcoming-coffees/
+    contact-us/
+    reports/
+        special-events/
+            csw61-values-caucus-community-discussion-the-value-of-work/
+            the-ethical-and-spiritual-dimensions-of-the-millennium-development-goals/
+            connecting-character-to-conduct-helping-students-do-the-right-thing/
+            visions-values-and-actions-create-our-common-future/
+        activity-reports/
+            activity-report-september-2004-to-september-2005/
+            activity-report-september-2003-to-september-2004/
+                the-ethical-and-spiritual-dimensions-of-the-millennium-development-goals/
+            september-2000-to-september-2001/
+            september-1999-to-september-2000/
+            september-1998-to-september-1999/
+            september-2002-to-september-2003/
+            september-2001-to-september-2002/
+            september-1997-to-september-1998/
+    about-us/
+        members/
+
+ADDITIONAL DISCOVERED INFORMATION:
+===================================
+
+MEMBERSHIP FORM ANALYSIS:
+- Form exists on: become-a-member/index.html
+- Form contains required fields for:
+  * First Name (required)
+  * Last Name 
+  * Email (required)
+  * Message
+  * Checkbox: 'I want to become a member of the Values Caucus' (required)
+
+KEY CONTACT INFORMATION:
+- Primary email: valuescaucus@valuescaucus.org (mentioned twice)
+- Other contacts: carlmurrell@valuescaucus.org, juliagrindon-welch@valuescaucus.org
+- Additional: valuescaucus@gmail.com
+
+IMPORTANT PAGES WITH SPECIFIC FUNCTIONS:
+- Contact Us: Has contact information and form submission
+- Events: Contains the largest content (40,766 chars) - detailed event history
+- History: Comprehensive timeline of organization (14,551 chars)
+- Resources: Important value-related content
+- Reports: Extensive archive of annual reports (1997-2005)
+- Coffees: Special event series documentation (guests, books, etc.)
+
+CONTENT PATTERNS:
+- Site was built with WordPress (based on WP-specific markup)
+- Heavy focus on UN-related events and values discussions
+- Annual documentation of activities maintained (1997-2005)
+- Multiple special event records preserved
+- Documented coffee conversation series with dignitaries
+- Archive of activity reports with ethical discussions
+
