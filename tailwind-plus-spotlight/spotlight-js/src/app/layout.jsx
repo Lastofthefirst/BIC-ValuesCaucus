@@ -5,12 +5,12 @@ import '@/styles/tailwind.css'
 
 export const metadata = {
   title: {
-    template: '%s - Spencer Sharp',
+    template: '%s - Values Caucus',
     default:
-      'Spencer Sharp - Software designer, founder, and amateur astronaut',
+      'Values Caucus at the United Nations',
   },
   description:
-    'I’m Spencer, a software designer and entrepreneur based in New York City. I’m the founder and CEO of Planetaria, where we develop technologies that empower regular people to explore space on their own terms.',
+    'The Mission of the Values Caucus at the United Nations in New York is to provide an open forum, in the context of the UN, where we can safely and respectfully discuss and explore our values, old and new, shared and differing, in order to allow a new culture to emerge that serves all of humanity and the planet upon which we live.',
   alternates: {
     types: {
       'application/rss+xml': `${process.env.NEXT_PUBLIC_SITE_URL}/feed.xml`,
